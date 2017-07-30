@@ -1,0 +1,17 @@
+body {
+  background: $background_body;
+  color: darkgray;
+  margin: 0;
+}
+
+header,
+.container,
+footer {
+  @include width(88%);
+  max-width: $max-width;
+}
+
+.wrapper {
+  padding: 1em 0;
+  background: $background_wrapper;
+}

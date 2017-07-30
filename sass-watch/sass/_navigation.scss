@@ -1,0 +1,18 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  li {
+    margin-right: .5em;
+    a {
+      background: white;
+      padding: .5em;
+      transition: .5s;
+      @include border-radius();
+      &:hover {
+        background: black;
+        border-radius: 0 15px;
+      }
+    }
+  }
+}

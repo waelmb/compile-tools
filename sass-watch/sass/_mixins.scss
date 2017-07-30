@@ -1,0 +1,7 @@
+@mixin border-radius() {
+  border-radius: 15px 0;
+}
+@mixin width($width) {
+  margin: 0 auto;
+  width: $width;
+}
