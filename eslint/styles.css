@@ -1,0 +1,68 @@
+body {
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+}
+
+/* Navigation
+------------------------------------------*/
+nav ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: .5em;
+}
+
+nav a {
+  background: white;
+  padding: .5em;
+  transition: .5s;
+  border-radius: 15px 0;
+}
+
+nav a:hover {
+  background: black;
+  border-radius: 0 15px;
+}
+
+/* Show/hide
+------------------------------------------*/
+.enquiries {
+  transition: 1s;
+  max-height: 95px;
+  overflow: hidden;
+}
+
+.hide-text {
+  max-height: 0;
+}
